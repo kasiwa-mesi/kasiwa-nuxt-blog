@@ -1,12 +1,12 @@
 <template>
-    <div class="index w-full bg-gray-400 md:px-4 lg:px-8 xl:px-32 flex flex-col lg:flex-row box-border">
-        <Article :data="article" />
+    <div class="index w-full bg-gray-300 md:px-4 lg:px-8 xl:px-32 flex flex-col lg:flex-row box-border">
+        <article-content :data="article" />
     </div>
 </template>
 
 <script>
-import Article from '~/components/partials/article.vue'
 import fetchData from '~/lib/fetch'
+import ArticleContent from '../components/partials/article-content.vue'
 
 export default {
     data() {
@@ -15,7 +15,7 @@ export default {
         }
     },
     components: {
-        Article
+        ArticleContent
     },
     async fetch() {
         console.log(this.$route.params.slug)

@@ -1,11 +1,22 @@
 <template>
-    <article class="article w-auto bg-white my-4 md:mx-4 p-4 rounded-md shadow-md box-border">
-        <nuxt-content :document="data"></nuxt-content>
-    </article>
+  <div>
+    <nuxt-link :to="'/' + slug" class="flex py-4 flex-col md:flex-row">
+      <div class="box-img">
+        <img :src="eyecatch" class="w-full py-2 md:py-0 rounded-lg" />
+      </div>
+      <div class="detail md:mx-4">
+        <p>
+          {{createdAt}}
+        </p>
+        <p class="font-bold text-2xl my-2">{{title}}</p>
+        <p class="text-gray-600">{{description}}</p>
+      </div>
+    </nuxt-link>
+  </div>
 </template>
 
 <script>
 export default {
-    props: ['data'],
+    props: ['eyecatch', 'title', 'description', 'slug', 'createdAt']
 }
 </script>
