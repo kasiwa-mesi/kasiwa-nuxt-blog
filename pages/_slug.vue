@@ -1,5 +1,5 @@
 <template>
-    <div class="index w-full bg-gray-200 md:px-4 lg:px-8 xl:px-32 flex flex-col lg:flex-row box-border">
+    <div class="index w-full bg-gray-400 md:px-4 lg:px-8 xl:px-32 flex flex-col lg:flex-row box-border">
         <Article :data="article" />
     </div>
 </template>
