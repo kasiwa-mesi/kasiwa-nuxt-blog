@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'kasiwa-nuxt-blog',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
