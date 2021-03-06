@@ -21,7 +21,7 @@ export default {
         console.log(this.$route.params.slug)
         this.article = await fetchData.getArticle(
             this.$content,
-            this.params.slug
+            this.$route.params.slug
         )
     },
     head() {
