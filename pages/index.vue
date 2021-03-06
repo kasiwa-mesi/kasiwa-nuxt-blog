@@ -9,6 +9,36 @@ import Articlelist from '~/components/partials/article-list.vue'
 export default {
   components: {
     Articlelist
+  },
+  head() {
+    return {
+      title: 'かしわのブログ',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'かしわのブログだよ。個人開発や使った技術についてまとめるよ。'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'かしわのブログ' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'かしわのブログだよ。個人開発や使った技術についてまとめるよ。'
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: ''
+        },
+        { hid: 'og:url', name: 'og:url', content: '' },
+        { hid: 'og:site_name', name: 'og:site_name', content: 'かしわのブログ' },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ]
+    }
   }
 }
 </script>

@@ -6,14 +6,13 @@ category: 'プロフィール'
 ---
 
 こんにちは、かしわです。
-
-`nuxt/content`モジュールを使ってブログを作りました。
+nuxt/content モジュールを使ってブログを作りました。
 
 ## 利用した技術
 
-- Nuxt.js(SSR モード)
-- nuxt/content
+- Nuxt.js(SSR)
 - Tailwind CSS
+- nuxt/content
 - Netlify(deploy)
 
 SNS でのシェア時に OGP 画像を出したかったので、SPA モードではなく SSR モードで動かしています。
