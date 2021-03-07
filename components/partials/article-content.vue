@@ -1,5 +1,7 @@
 <template>
     <article class="article w-auto bg-white my-4 md:mx-4 p-4 rounded-md shadow-md box-border">
+        <h1 class="font-bold text-3xl">{{ data.title }}</h1>
+        <img :src="data.eyecatchWebP" class="my-4" />
         <nuxt-content :document="data"></nuxt-content>
     </article>
 </template>

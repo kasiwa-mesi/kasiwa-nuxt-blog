@@ -2,7 +2,7 @@
 title: Getting started
 description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
 eyecatch: 'https://res.cloudinary.com/kasiwa/samples/landscapes/architecture-signs.jpg'
-eyecatch-WebP: 'https://res.cloudinary.com/kasiwa/samples/landscapes/architecture-signs.webp'
+eyecatchWebP: 'https://res.cloudinary.com/kasiwa/samples/landscapes/architecture-signs.webp'
 category: 'テスト'
 ---
 
