@@ -1,7 +1,11 @@
 <template>
     <article class="article w-auto bg-white my-4 md:mx-4 p-4 rounded-md shadow-md box-border">
         <h1 class="font-bold text-3xl">{{ data.title }}</h1>
-        <img :src="data.eyecatchWebP" class="my-4" />
+        <picture>
+          <source type="image/webp" :srcset="data.eyecatchWebP" class="my-4" />
+          <source type="image/jpeg" :srcset="data.eyecatch" class="my-4" />
+          <img :src="data.eyecatch" alt="" />
+        </picture>
         <nuxt-content :document="data"></nuxt-content>
     </article>
 </template>

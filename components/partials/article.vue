@@ -2,7 +2,11 @@
   <div>
     <nuxt-link :to="'/' + slug" class="flex py-4 flex-col md:flex-row">
       <div class="box-img">
-        <img :src="eyecatchWebP" class="w-full py-2 md:py-0 rounded-lg" />
+        <picture>
+          <source type="image/webp" :srcset="eyecatchWebP" class="my-4" />
+          <source type="image/jpeg" :srcset="eyecatch" class="my-4" />
+          <img :src="eyecatch" alt="" />
+        </picture>
       </div>
       <div class="detail md:mx-4">
         <p>
@@ -17,6 +21,6 @@
 
 <script>
 export default {
-    props: ['eyecatchWebP', 'title', 'description', 'slug', 'createdAt']
+    props: ['eyecatch', 'eyecatchWebP', 'title', 'description', 'slug', 'createdAt']
 }
 </script>

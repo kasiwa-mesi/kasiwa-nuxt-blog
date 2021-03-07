@@ -3,6 +3,7 @@
     <Article
         v-for="elem in article_list"
         :key="elem.id"
+        :eyecatch="elem.eyecatch"
         :eyecatchWebP="elem.eyecatchWebP"
         :title="elem.title"
         :description="elem.description"
