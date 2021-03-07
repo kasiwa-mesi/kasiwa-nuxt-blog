@@ -28,7 +28,6 @@ tailwind.config.js において、"purge"の設定をする。
 ```
 module.exports = {
     purge: {
-        // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
         enabled: process.env.NODE_ENV === 'production',
         content: [
             'components/**/*.vue',
@@ -46,7 +45,12 @@ module.exports = {
 
 ### 画像最適化
 
-![](https://res.cloudinary.com/kasiwa/result_1.png)
+ここでは、画像最適化する意義を書き残したいので、LightHouse の結果を逐一残すことにする。
+
+#### 画像を最適化する前の状態
+
+まず、何もしていない状態で LightHouse を利用して、計測する。
+![画像を最適化する前の状態](https://res.cloudinary.com/kasiwa/result_1.png)
 
 ## ファイルの説明
 
