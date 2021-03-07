@@ -9,3 +9,21 @@ export default {
     props: ['data'],
 }
 </script>
+
+<style>
+.nuxt-content h2 {
+    @apply font-bold;
+    @apply text-2xl;
+    @apply my-8;
+}
+
+.nuxt-content ul {
+  @apply list-disc;
+  @apply list-inside;
+  @apply ml-2;
+}
+
+.nuxt-content p {
+  @apply my-4;
+}
+</style>

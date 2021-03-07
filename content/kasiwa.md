@@ -15,7 +15,7 @@ nuxt/content モジュールを使ってブログを作りました。
 - nuxt/content
 - Netlify(deploy)
 
-SNS でのシェア時に OGP 画像を出したかったので、SPA モードではなく SSR モードで動かしています。
+SNS でシェアするときに OGP 画像を出力したかったので、SPA モードではなく SSR モードで動かしています。
 
 nuxt/content はコンテンツを markdown で管理することができるようになります。よって、 Git に push するだけで簡単に投稿することができるようになります！！！
 

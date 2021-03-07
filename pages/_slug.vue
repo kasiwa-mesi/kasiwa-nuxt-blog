@@ -28,11 +28,11 @@ export default {
         return {
             title: this.article.title,
             meta: [
-                {
-                    hid: 'description',
-                    name: 'description',
-                    content: this.article.title,
-                },
+                { hid: 'description', name: 'description', content: this.article.description },
+                { hid: 'og:title', name: 'og:title', content: this.article.title },
+                { hid: 'og:description', name: 'og:description', content: this.article.description },
+                { hid: 'og:image', name: 'og:image', content: this.article.eyecatch },
+                { hid: 'og:url', name: 'og:url', content: '' + this.article.slug },
             ],
         }
     },
