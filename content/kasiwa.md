@@ -2,7 +2,7 @@
 title: かしわがブログ作ったってよ。
 description: ブログを作った理由、寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。寿司が食いたい。
 eyecatch: https://res.cloudinary.com/kasiwa/samples/landscapes/beach-boat.jpg
-eyecatchWebP: https://res.cloudinary.com/kasiwa/samples/landscapes/beach-boat.webp
+eyecatchWebP: https://res.cloudinary.com/kasiwa/q_auto:eco,c_fit,w_800,h_400/samples/landscapes/beach-boat.webp
 category: 'プロフィール'
 ---
 
