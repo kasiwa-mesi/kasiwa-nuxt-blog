@@ -100,5 +100,8 @@ JPEG、PNG から WebP に変換することで、アクセシビリティは改
 ## Deploy
 
 このサイトは次の url にて公開しています。
+参考 URL: [かしわのブログ](https://heuristic-allen-03da7c.netlify.app/)
 
 ## 改善点
+
+執筆中、、、、、
