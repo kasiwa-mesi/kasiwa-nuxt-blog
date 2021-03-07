@@ -84,6 +84,8 @@ JPEG、PNG よりも WebP はファイルサイズが 25~35%ぐらい減少す�
 JPEG、PNG から WebP に変換することで、アクセシビリティは改善できたが、全体的なパフォーマンスは改善できていない。
 ![](https://res.cloudinary.com/kasiwa/result_2.png)
 
+#### 2.画像ファイルのサイズを収縮&width,height の設定
+
 ## ファイルの説明
 
 - content: ブログに投稿される記事を保存するファイル。全て markdown 形式です。
