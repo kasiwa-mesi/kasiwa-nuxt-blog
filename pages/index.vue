@@ -28,7 +28,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: ''
+          content: 'https://res.cloudinary.com/kasiwa/ogp.png'
         },
         { hid: 'og:url', name: 'og:url', content: '' },
         { hid: 'og:site_name', name: 'og:site_name', content: 'かしわのブログ' },
