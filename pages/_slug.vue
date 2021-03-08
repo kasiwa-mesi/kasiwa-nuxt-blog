@@ -32,7 +32,8 @@ export default {
                 { hid: 'og:title', name: 'og:title', content: this.article.title },
                 { hid: 'og:description', name: 'og:description', content: this.article.description },
                 { hid: 'og:image', name: 'og:image', content: this.article.eyecatch },
-                { hid: 'og:url', name: 'og:url', content: '' + this.article.slug },
+                { hid: 'og:url', name: 'og:url', content: 'https://heuristic-allen-03da7c.netlify.app/' + this.article.slug },
+                { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
             ],
         }
     },
