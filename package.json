@@ -11,6 +11,7 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "core-js": "^3.8.3",
+    "is-svg": "^4.3.1",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
